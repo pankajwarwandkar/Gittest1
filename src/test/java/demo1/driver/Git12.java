@@ -21,7 +21,7 @@ public class Git12 {
 	for(String a:arr) {
 	System.out.println(a);
 	
-	
+	//System.out
 	}
 	}
 	
