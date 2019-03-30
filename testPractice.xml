@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" >
+  <test name="Test 1">
+    <classes>
+      <class name="demo1.driver.Log"/>
+      <class name="demo1.driver.PracticeP"/>
+    </classes>
+  </test>
+</suite>

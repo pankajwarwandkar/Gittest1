@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[mozila is open]]>
+    </line>
+    <line>
+      <![CDATA[testing is done]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite08" duration-ms="41832" started-at="2019-02-15T07:29:43Z" finished-at="2019-02-15T07:30:25Z">
+    <groups>
+    </groups>
+    <test name="parameter test" duration-ms="41832" started-at="2019-02-15T07:29:43Z" finished-at="2019-02-15T07:30:25Z">
+      <class name="demo1.ReadData">
+        <test-method status="PASS" signature="geadDataFromPeremeter(java.lang.String)[pri:0, instance:demo1.ReadData@20322d26]" name="geadDataFromPeremeter" duration-ms="41651" started-at="2019-02-15T12:59:43Z" finished-at="2019-02-15T13:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mozzila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[mozila is open]]>
+            </line>
+            <line>
+              <![CDATA[testing is done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- geadDataFromPeremeter -->
+      </class> <!-- demo1.ReadData -->
+    </test> <!-- parameter test -->
+  </suite> <!-- Suite08 -->
+</testng-results>
