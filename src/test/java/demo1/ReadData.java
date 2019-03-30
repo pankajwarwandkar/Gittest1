@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-
+import org.testng.Reporter;
 import org.testng.annotations.Parameters;
 
 
@@ -36,6 +36,8 @@ public class ReadData {
 	{
 	 
 		 driver = new FirefoxDriver();	
+		 
+		 Reporter.log("mozila is open");
 		
 	}
 	else if (browsername.equalsIgnoreCase("chrome"))
@@ -44,11 +46,14 @@ public class ReadData {
 	 System.setProperty("webdriver.chrome.driver", System.getProperty("D:\\selanium class\\crmproject\\drivers\\chromedriver.exe"));
 	
 	 driver= new ChromeDriver();
+	 Reporter.log("Chrome is open");
 	
 	
 	}
 
 	driver.get("https://www.facebook.com");
+	
+	 Reporter.log("testing is done");
 	
 	// If the browser is Firefox, then do this
 /*

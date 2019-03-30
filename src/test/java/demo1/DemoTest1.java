@@ -1,30 +1,21 @@
 package demo1;
 
-import org.testng.annotations.Test;
-
-public class DemoTest1 {
-
-	
-	@Test
-	public static void arrayPrint() {
-		
-		
-		int ar1[] = new int[2];
-				ar1[0]=1;
-		ar1[1]=2;
-		
-		
-		for(int st1 :ar1)
-		{
-			System.out.println(st1);
-		}
-			
-			
-			
-			
-			
-	}
-	
-	
-	
-}
+class DemoTest1{  
+		 public static void main(String args[]){  
+		  try{  
+		    try{  
+		     System.out.println("going to divide");  
+		     int b =39/0;  
+		    }catch(ArithmeticException e){System.out.println(e);}  
+		   
+		     
+		    int a[]=new int[5];  
+		    a[5]=4;  
+		   
+		     
+		    System.out.println(a[5]);  
+		  }catch(Exception e){System.out.println("handeled");}  
+		  
+		  System.out.println("normal flow..");  
+		 }  
+		}  
